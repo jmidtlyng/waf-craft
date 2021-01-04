@@ -1,0 +1,15 @@
+{% extends "_base" %}
+
+{% block content %}
+  <h1>{{ entry.title }}</h1>
+  <p>{{ entry.paragraph }}</p>
+  <div class="vestibule">
+    {% for block in entry.wings.all() %}
+      <div>
+        <a href="{{ block.wingUrl }}">
+          <p>{{ block.wingName }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

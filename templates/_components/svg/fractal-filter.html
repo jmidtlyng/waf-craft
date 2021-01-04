@@ -1,0 +1,15 @@
+<filter id='fractalFilter' x='0%' y='0%' width='100%' height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency='0.7' result='noise' numOctaves="8" />
+  <feColorMatrix type="matrix"
+                 values="-18 0 0 0 8
+                         -18 0 0 0 8
+                         -18 0 0 0 8
+                         0 0 0 0 1"
+                 in="noise" result="f2" />
+  <feColorMatrix type="luminanceToAlpha" in="f2" result="f3" />
+  <feComposite in="SourceGraphic" in2="f3" result="f4" operator="in" />
+</filter>
+<linearGradient id="fractalGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+  <stop offset="0%" style="stop-color:#7c3088; stop-opacity:1" />
+  <stop offset="100%" style="stop-color:#79313d; stop-opacity:1" />
+</linearGradient>

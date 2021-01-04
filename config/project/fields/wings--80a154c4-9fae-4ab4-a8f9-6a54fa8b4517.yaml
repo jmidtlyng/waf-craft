@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: fc416cd1-5f2d-4596-963a-9e3fa137689e
+handle: wings
+instructions: 'Wings of site'
+name: Wings
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_wings}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,42 @@
+{% extends "_base" %}
+{% block content %}
+  <div class="librarby">
+    <ul class="librarby-feed">
+      {% for item in entry.libraryList.all() %}
+        {% set episode_art = item.image.one() %}
+        {% if (episode_art is not defined) or (episode_art == null) %}
+          {% set episode_art = imageFallback.image.one() %}
+        {% endif %}
+
+        <li class="librarby-feed-item">
+          <svg class="librarby-feed-item-texture">
+            {% include "_components/svg/fractal-filter.html" %}
+            <rect x="0" y="0" width="100%" height="100%" filter="url(#fractalFilter)" fill="url(#fractalGradient)">
+          </svg>
+          <div class="librarby-feed-item-img">
+            <img class="librarby-feed-item-img__img" src="{{ episode_art.url }}">
+          </div>
+          <div class="librarby-feed-item-detail">
+            <p class="librarby-feed-item-detail-title barlow is-size-3 pl-4 pb-2">{{ item.title }}</p>
+            <p class="librarby-feed-item-detail-description pl-5 pb-2">{{ item.description }}</p>
+            <div class="librarby-feed-item-detail-player pl-4">
+              <audio preload="metadata">
+                <source src="{{ item.episodeAudio }}" type="audio/mp4">
+              </audio>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <script defer>
+    const els_audio = document.querySelectorAll("audio");
+    window.addEventListener('load', function() {
+      GreenAudioPlayer.init({
+        selector: '.librarby-feed-item-detail-player',
+        preload: true,
+        stopOthersOnPlay: true
+      });
+    });
+  </script>
+{% endblock %}

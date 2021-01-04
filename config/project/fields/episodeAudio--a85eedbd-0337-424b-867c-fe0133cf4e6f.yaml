@@ -1,0 +1,440 @@
+contentColumnType: string
+fieldGroup: fc416cd1-5f2d-4596-963a-9e3fa137689e
+handle: episodeAudio
+instructions: 'Select an episode from the list. The list is updated based on the RSS feed in it''s settings (settings > fields > Episode Audio)'
+name: 'Episode Audio'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Choose your Episode'
+        -
+          - value
+          - ''
+        -
+          - disabled
+          - true
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Sunday Sauce - Chapter 38 from the Book of Job'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/24471338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-27%2F695a35b1-ac46-eac5-7eb7-eda4800b305e.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Wizard of Oz - Episode 5'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/24037471/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-16%2F9660f0b1-d975-f68d-c1e8-51686ff4b03b.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Caliban Upon Setebos; Or, Natural Theology on the Island'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/23723060/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-9%2Fa120db4f-390d-1496-5e7c-3a77c5f93a5a.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Collar-Bone of a Hare - An Irish Airman Foresees His Death'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/22993269/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-23%2F0f3e8c27-9d8b-e9cc-fb5b-d38e673430f6.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix - 2 Poems En Route'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/22648171/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-16%2F49d0b10b-a8c5-44bd-fc40-0b94433bdaad.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Star-Splitter'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/22517828/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-13%2F5148253d-2d88-066f-4158-2e461ca91f8f.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix - Nightsong'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/21976802/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-2%2F30883472-20cf-7bcc-0f53-9ecdcbe0b8e1.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Pope''s Iliad - Episode 2'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/20767829/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-9-7%2F7cde8232-2094-f99a-38d3-ed1f06a0010d.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Pope''s Iliad - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/20767638/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-9-7%2Fb437aef5-dc02-32bf-c333-6a1421599f34.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix - 2 Poems for the Dog Days'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/18484216/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-24%2Fdf1728b0-7b47-d3d7-74df-8ac7e3833927.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Decline and Fall of the Roman Empire - Episode 3'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/18372332/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-21%2Fa3388abb-6763-0938-9cee-7cc273570356.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Decline and Fall of the Roman Empire - Empire 2'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/18354577/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-21%2Ff1f3a57a-d4f2-f171-c8a5-afd6549b4fd9.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'SONNET OCTAGON - Episode 3 - Thomas Wyatt vs. William Shakespeare'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/17616707/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-6%2F96023664-44100-2-72387fe87f871.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix - Poem Containing My Daughter''s House, Drawn and Cut by Hand'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/17335041/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-31%2Fe629de95-32d3-8d5a-4ebf-736f94f33d16.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Wizard of Oz - Episode 4'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/17081337/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-25%2F3c5c8360-8ef1-fbbc-5d22-680ec960dbf4.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'My First Summer in the Sierra - Episode 2'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/16637042/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-16%2F00351fe5-aa54-a97c-f899-244dc1931461.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Varieties of Religious Experience - Lecture 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/16360981/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-10%2F2b242ef7-5d72-741b-4b5b-f3826b6c3bfe.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The History of the Decline and Fall of the Roman Empire - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/15768592/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-5-27%2F85636564-44100-2-d7a3f86f3cad6.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix - Lot''s Lament - The House of the Stare'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/14576753/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-5-1%2F78500489-44100-2-f18cb13612141.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Wizard of Oz - Episode 3'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/14493154/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-30%2F77958038-44100-2-0b656a45c1b4a.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'My First Summer in the Sierra - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/14445402/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-29%2F77650932-44100-2-0310f41e543be.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix - 3 Poems Containing Birds'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/14185209/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-23%2F75991908-44100-2-dbfb9ef3dd1c6.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Sonnet Octagon - Episode 2'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/14063405/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-21%2F75212538-44100-2-c526730b19b08.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Your Tuesday Spleen - 2 Poems By Jonathan Swift'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/14015183/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-20%2F74882061-44100-2-9e6acc4ecfebb.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Sunday Sauce - La Corona, a sonnet sequence by John Donne'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/13900508/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-18%2F74173893-44100-2-2a6c4401b3efd.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix - 2 Poems Against Malice'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/13861128/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-17%2F73901261-44100-2-52fd538dcbbdc.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Cathay - Episode 1 '
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/13821585/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-16%2F73625550-44100-2-ca9cbe6f6daee.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Sunday Sauce - Psalm 137 in 2 Takes'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/13278655/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-4%2F69975015-44100-2-05d20ce61a6d6.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Lincoln Letters - Episode 4'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/13220146/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-3%2F69694482-44100-2-f9ff5c117d03b.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'SONNET OCTAGON - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/13139306/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-1%2F69143923-44100-2-5004610dc0831.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Wizard of Oz - Episode 2'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/13049611/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-29%2F68545173-44100-2-14b6929ba72.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Sunday Sauce - The Book of Ruth'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12939931/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-26%2F67812072-44100-2-6eb9c7688beaf.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix - Monday with Dad (for Jim)'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12904953/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-25%2F67571812-44100-2-41e207591701.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Adams-Jefferson Letters - Episode 4'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12878281/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-25%2F67400403-44100-2-ab2e3ad8de.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'My Cat Jeoffrey'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12834092/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-24%2F67105453-44100-2-bee9e09f54ce8.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Phoenix and Turtle'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12754974/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-22%2F66595968-44100-2-89f7f9d7fef42.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Sunday Sauce - The Book of Jonah - A Hymn to God the Father'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12632329/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-19%2F65837289-44100-2-0db1c17fbcbfb.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Wound-Dresser'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12603672/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-18%2F65670443-44100-2-7971b48e586b2.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Lincoln Letters - Episode 3'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12487901/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-16%2F64941841-44100-2-fbd6f4dc1fef6.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix - The Golf Outing (an eastertide triptych) by Colin Mahoney'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12390644/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-14%2F64324073-44100-2-dbec7b083bbf7.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Appendix, and Other Gratuitous Organs - 4 Poems by written and read by Colin Mahoney'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12237634/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-10%2F63259540-44100-2-a4173c1bbe5a4.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Lines Composed a Few Miles Above Tintern Abbey'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12138665/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-7%2F62593001-44100-2-777b1733f4b8.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'What Is White Ash Flies?- My Dentist Lives in the Suburbs, Attends Meetings in the City'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12094656/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62306675-44100-2-d2e3cd86cd04d.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Lincoln Letters - Episode 2'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12094488/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62305378-44100-2-7563c753779a3.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Tower - Episode 1 '
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12094315/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62304073-44100-2-b24c7ddf696fe.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Ovid, Covid - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12094008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62301725-44100-2-888d066fe1f7.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Song of Myself - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12091827/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62289155-44100-2-424610902e58c.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Zander''s Sunday Sauce - Ecclesiastes, Ch. 1-6'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12091607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62287369-44100-2-0f6df82370b6d.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Wizard of Oz - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12091332/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62285429-44100-2-ba1a93c852b0d.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Gulliver''s Travels - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12091091/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62283733-44100-2-ad019f76ce693.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Lincoln Letters - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12090775/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62281624-44100-2-c62769eec5dca.m4a'
+    -
+      __assoc__:
+        -
+          - label
+          - 'The Adams-Jefferson Letters - Episode 1'
+        -
+          - value
+          - 'https://anchor.fm/s/1bcb7c74/podcast/play/12090374/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-6%2F62279059-44100-2-24402db78dbd6.m4a'
+  rssFeedUrl: 'https://anchor.fm/s/1bcb7c74/podcast/rss'
+translationKeyFormat: null
+translationMethod: none
+type: modules\YkRss\fields\PodcastEpisodeField

@@ -1,0 +1,65 @@
+fieldLayouts:
+  2cd42c73-e2c3-4fe5-ae7c-a9287d78e697:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: a1254037-21d4-4fd1-be71-b9da25046f41
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 80a154c4-9fae-4ab4-a8f9-6a54fa8b4517
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a4c4445c-f6f2-4bc1-8693-c140a7bd230f
+            instructions: 'Text introducing WAF'
+            label: 'Site Intro'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: vestibule
+hasTitleField: false
+name: Vestibule
+section: 0b0070f8-3791-4fe2-8757-45c4719d4016
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

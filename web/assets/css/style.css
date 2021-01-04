@@ -1,0 +1,153 @@
+body {
+  background-color: #f3f8f1;
+  color: #000;
+  line-height: 1;
+  font-family: 'Courier New', monospace;
+  font-weight: 900;
+}
+
+/*
+ * fontface
+ */
+/*
+ * barlow-condensed-500 - latin
+ */
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/font/barlow-condensed-v5-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('/assets/font/barlow-condensed-v5-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/assets/font/barlow-condensed-v5-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/assets/font/barlow-condensed-v5-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('/assets/font/barlow-condensed-v5-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/assets/font/barlow-condensed-v5-latin-500.svg#BarlowCondensed') format('svg'); /* Legacy iOS */
+}
+/*
+ * montserrat-900 - latin
+ */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/assets/font/montserrat-v15-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('/assets/font/montserrat-v15-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/assets/font/montserrat-v15-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/assets/font/montserrat-v15-latin-900.woff') format('woff'), /* Modern Browsers */
+    url('/assets/font/montserrat-v15-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/assets/font/montserrat-v15-latin-900.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+.barlow {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.header {
+  background-color: #eaece9;
+  overflow: hidden;
+  position: relative;
+}
+.footer {
+  background-color: #e5e3e4;
+}
+.header-nav {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em
+}
+.header-nav__ul {
+  display: flex;
+  align-content: center;
+}
+.header-nav__li {
+  align-content: center;
+  display: flex;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.header-nav__li:first-child {
+  padding-left: 0;
+}
+.header-nav__li:last-child {
+  padding-right: 0;
+}
+.header-nav__li .header-nav__a {
+  background: radial-gradient(#eaece9 50%, transparent);
+  margin: auto;
+}
+.header-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header-title-text {
+  color: #f3f8f1;
+  font-size: 2em;
+  position: absolute;
+  text-shadow: 0 0 1px rgba(124, 48, 136, 0.8);
+  top: 0.25em;
+  left: 0.5em;
+}
+
+.link {
+  color: #000 !important;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+/*
+ * Librarby
+ */
+.librarby-feed-item {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.librarby-feed-item-img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 140px;
+  z-index: 1;
+}
+.librarby-feed-item-detail {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  z-index: 1;
+}
+.librarby-feed-item:hover .librarby-feed-item-detail-title {
+  color: #79313d;
+}
+.librarby-feed-item-texture {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  transition: opacity 0.4s;
+}
+.librarby-feed-item--active .librarby-feed-item-texture {
+  opacity: 0.2;
+}
+
+/*
+ * Socal
+ */
+.socal-icon {
+  height: 2em;
+  width: 2em;
+}
+.socal-icon:hover {
+  fill: #7c3088;
+}

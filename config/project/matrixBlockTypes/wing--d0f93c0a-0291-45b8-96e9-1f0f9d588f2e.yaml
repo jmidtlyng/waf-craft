@@ -1,0 +1,68 @@
+field: 80a154c4-9fae-4ab4-a8f9-6a54fa8b4517
+fieldLayouts:
+  ee8c6fcb-fcc9-4eac-bb9a-9da436907e9a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 405e2191-e2b3-4e5d-9c4b-f4dfb09bf309
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 55ea421d-4dd6-4c61-8b72-5eb212e47113
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  405e2191-e2b3-4e5d-9c4b-f4dfb09bf309:
+    contentColumnType: text
+    fieldGroup: null
+    handle: wingName
+    instructions: 'Name of site wing'
+    name: 'Wing Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  55ea421d-4dd6-4c61-8b72-5eb212e47113:
+    contentColumnType: text
+    fieldGroup: null
+    handle: wingUrl
+    instructions: 'Link to wing'
+    name: 'Wing URL'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: wing
+name: Wing
+sortOrder: 1

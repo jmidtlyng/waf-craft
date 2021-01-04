@@ -1,0 +1,11 @@
+{% import '_includes/forms' as forms %}
+{{
+  forms.textField({
+       label: "RSS Feed"|t('YkRss'),
+       instructions: "Set an RSS feed URL to pull episodes into dropdown options."|t('YkRss'),
+       id: 'rssFeedUrl',
+       name: 'rssFeedUrl',
+       value: '',
+       errors: field.getErrors("rssFeedUrl"),
+   })
+}}

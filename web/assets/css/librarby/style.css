@@ -1,0 +1,7 @@
+.library-feed-item {
+  display: inline-block;
+}
+.library-feed-item__img {
+  display: inline-block;
+  max-width: 12em;
+}

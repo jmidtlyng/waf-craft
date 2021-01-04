@@ -1,0 +1,18 @@
+fieldLayouts:
+  459ae116-7efc-4f9b-82eb-b6467901ff20:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b2a415a5-a307-40c2-b211-d23127a90f6a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Fields
+        sortOrder: 1
+handle: imageFallback
+name: 'Image Fallback'

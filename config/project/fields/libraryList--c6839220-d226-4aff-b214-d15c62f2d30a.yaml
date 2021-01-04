@@ -1,0 +1,20 @@
+contentColumnType: string
+fieldGroup: fc416cd1-5f2d-4596-963a-9e3fa137689e
+handle: libraryList
+instructions: 'Enter and organize items in the library'
+name: 'Library List'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: null
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

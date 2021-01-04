@@ -1,0 +1,17 @@
+dateModified: 1609373012
+email:
+  fromEmail: jacobmidtlyng@gmail.com
+  fromName: waf
+  transportType: craft\mail\transportadapters\Sendmail
+system:
+  edition: solo
+  live: true
+  name: waf
+  schemaVersion: 3.5.13
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
