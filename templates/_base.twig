@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyBlog</title>
+    <title>White Ash Flies</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   <body>
     <section class="section header pb-4">
-      {% include "_components/site-title.twig" %}
-      {% include "_components/nav.twig" %}
+      <div class="header-top is-flex is-justify-content-space-between">
+        {% include "_components/site-title.twig" %}
+        {% include "_components/nav.twig" %}
+      </div>
       <div class="container is-flex is-justify-content-space-between">
         <h1 class="montserrat is-size-1">{{ entry.title }}</h1>
       </div>

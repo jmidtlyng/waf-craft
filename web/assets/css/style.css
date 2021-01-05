@@ -57,41 +57,36 @@ body {
 .footer {
   background-color: #e5e3e4;
 }
-.header-nav {
+.header-top {
   position: absolute;
-  top: 0.5em;
-  right: 0.5em
+  top: 0;
+  left: 0;
 }
-.header-nav__ul {
+.header-top-nav__ul {
   display: flex;
-  align-content: center;
+  align-content: flex-end;
 }
-.header-nav__li {
+.header-top-nav__li {
   align-content: center;
   display: flex;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-.header-nav__li:first-child {
+.header-top-nav__li:first-child {
   padding-left: 0;
 }
-.header-nav__li:last-child {
+.header-top-nav__li:last-child {
   padding-right: 0;
 }
-.header-nav__li .header-nav__a {
+.header-top-nav__li .header-nav__a {
   background: radial-gradient(#eaece9 50%, transparent);
   margin: auto;
 }
-.header-title {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.header-title-text {
-  color: #f3f8f1;
+.header-top-title-text {
+  color: #fff;
   font-size: 2em;
   position: absolute;
-  text-shadow: 0 0 1px rgba(124, 48, 136, 0.8);
+  text-shadow: 0 0 1px rgba(124, 48, 136, 1);
   top: 0.25em;
   left: 0.5em;
 }
@@ -135,7 +130,6 @@ body {
   top: 0;
   width: 100%;
   z-index: 0;
-  transition: opacity 0.4s;
 }
 .librarby-feed-item--active .librarby-feed-item-texture {
   opacity: 0.2;

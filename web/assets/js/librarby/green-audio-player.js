@@ -414,8 +414,6 @@ var GreenAudioPlayer = /*#__PURE__*/function () {
 
       if(el_clickedFeedItem.className.indexOf("librarby-feed-item--active") == -1){
         el_clickedFeedItem.className += " librarby-feed-item--active";
-      } else {
-        el_clickedFeedItem.className = "librarby-feed-item";
       }
 
       els_feedItems.forEach(function(el_feedItem){

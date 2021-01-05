@@ -5,7 +5,7 @@ propagationMethod: all
 siteSettings:
   16577b9f-37cc-4fe5-ab94-920c3ae062b4:
     enabledByDefault: true
-    hasUrls: true
+    hasUrls: false
     template: null
-    uriFormat: __home__
+    uriFormat: null
 type: single

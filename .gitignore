@@ -2,4 +2,5 @@
 /.idea
 /vendor
 /web/assets/images
+/config
 .DS_Store

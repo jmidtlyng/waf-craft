@@ -7,5 +7,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: librarby
-    uriFormat: library
+    uriFormat: __home__
 type: single
